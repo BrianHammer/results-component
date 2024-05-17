@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link href="./output.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Results</title>
+
+    <!-- Imports google font "Hanken Grotesk" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="bg-white font-normal font-main text-lg cursor-default">
+    <!-- COntainer -->
+    <div class="h-screen w-full flex items-start justify-center large:items-center">
+      <!-- Card -->
+      <div class="w-full overflow-hidden flex flex-col items-center justify-start text-black large:flex-row large:items-center large:rounded-3xl max-w-[600px] bg-white large:shadow-xl">
+        <!-- purple -->
+        <div
+          class="w-full p-8 flex flex-col gap-4 items-center justify-center bg-gradient-to-t from-light-royal-blue to-light-slate-blue text-white rounded-b-3xl large:rounded-3xl h-[450px] large:py-0"
+        >
+          <h3 class="font-extra-heavy opacity-50 text-xl">Your Result</h3>
+          <div class="flex flex-col items-center justify-center gap-2 h-40 w-40 rounded-full bg-gradient-to-t from-persian-blue to-violet-blue">
+            <p class="text-6xl font-extra-heavy">76</p>
+            <p class="font-extra-heavy opacity-50">of 100</p>
+          </div>
+          <div class="text-center space-y-2 ">
+            <h3 class="text-3xl font-extra-heavy">Great</h3>
+            <p class="opacity-50 font-heavy max-w-80 leading-snug">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <!-- white section -->
+        <div class="w-full flex flex-col gap-6 p-8">
+          <h3 class="font-extra-heavy text-xl opacity-75">Summary</h3>
+
+          <!-- START OF UL --------------------------------------------------------------->
+          <ul class="flex flex-col gap-4 w-full">
+            <li
+              class="p-4 rounded-lg flex flew-row justify-between items-center w-full bg-opacity-10 bg-light-red large:p-2"
+            >
+              <div class="space-x-2 text-light-red flex flex-row items-center">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      stroke="#F55"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.25"
+                      d="M10.833 8.333V2.5l-6.666 9.167h5V17.5l6.666-9.167h-5Z"
+                    /></svg
+                ></span>
+                <span>Reaction</span>
+              </div>
+              <p class="font-heavy">
+                <span class="">80</span> <span class="opacity-50">/ 100</span>
+              </p>
+            </li>
+
+            <li
+              class="p-4 rounded-lg flex flew-row justify-between items-center w-full bg-opacity-10 bg-orangey-yellow large:p-2"
+            >
+              <div
+                class="space-x-2 text-orangey-yellow flex flex-row items-center"
+              >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      stroke="#FFB21E"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.25"
+                      d="M5.833 11.667a2.5 2.5 0 1 0 .834 4.858"
+                    />
+                    <path
+                      stroke="#FFB21E"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.25"
+                      d="M3.553 13.004a3.333 3.333 0 0 1-.728-5.53m.025-.067a2.083 2.083 0 0 1 2.983-2.824m.199.054A2.083 2.083 0 1 1 10 3.75v12.917a1.667 1.667 0 0 1-3.333 0M10 5.833a2.5 2.5 0 0 0 2.5 2.5m1.667 3.334a2.5 2.5 0 1 1-.834 4.858"
+                    />
+                    <path
+                      stroke="#FFB21E"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.25"
+                      d="M16.447 13.004a3.334 3.334 0 0 0 .728-5.53m-.025-.067a2.083 2.083 0 0 0-2.983-2.824M10 3.75a2.085 2.085 0 0 1 2.538-2.033 2.084 2.084 0 0 1 1.43 2.92m-.635 12.03a1.667 1.667 0 0 1-3.333 0"
+                    /></svg
+                ></span>
+                <span>Memory</span>
+              </div>
+              <p class="font-heavy">
+                <span class="">92</span> <span class="opacity-50">/ 100</span>
+              </p>
+            </li>
+
+            <li
+              class="p-4 rounded-lg flex flew-row justify-between items-center w-full bg-opacity-10 bg-green-teal large:p-2"
+            >
+              <div class="space-x-2 text-green-teal flex flex-row items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#00BB8F" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M7.5 10h5M10 18.333A8.333 8.333 0 1 0 1.667 10c0 1.518.406 2.942 1.115 4.167l-.699 3.75 3.75-.699A8.295 8.295 0 0 0 10 18.333Z"/></svg></span>
+                <span>Verbal</span>
+              </div>
+              <p class="font-heavy">
+                <span class="">61</span> <span class="opacity-50">/ 100</span>
+              </p>
+            </li>
+
+            <li
+              class="py-4 px-4 rounded-lg flex flew-row justify-between items-center w-full bg-opacity-10 bg-cobalt-blue large:p-2"
+            >
+              <div class="space-x-2 text-cobalt-blue flex flex-row items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20"><path stroke="#1125D6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M10 11.667a1.667 1.667 0 1 0 0-3.334 1.667 1.667 0 0 0 0 3.334Z"/><path stroke="#1125D6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25" d="M17.5 10c-1.574 2.492-4.402 5-7.5 5s-5.926-2.508-7.5-5C4.416 7.632 6.66 5 10 5s5.584 2.632 7.5 5Z"/></svg></span>
+                <span>Visual</span>
+              </div>
+              <p class="font-heavy">
+                <span class="">72</span> <span class="opacity-50">/ 100</span>
+              </p>
+            </li>
+
+
+            
+          </ul>
+          <!-- END OF UL  ---------------------------------------------------------------------->
+
+          <a href="#" class="w-full py-4 text-center bg-black bg-opacity-80 text-white rounded-full hover:bg-gradient-to-t from-light-royal-blue to-light-slate-blue "
+            >Continue</a
+          >
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="absolute top-0 right-5 large:top-10 large:right-10 text-sm text-white large:text-black">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-light-royal-blue"
+        >Frontend Mentor </a
+      >. Coded by <a href="#" class="text-light-royal-blue ">Brian Hammer</a>.
+    </div>
+  </body>
+</html>
